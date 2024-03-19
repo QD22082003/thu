@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hóa đơn</title>
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"> -->
+    <link rel="stylesheet" href="/assets/icon/icon.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./assets/icon/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <!-- Logo -->
+            <div class="toggle">
+                <div class="logo">
+                    <img src="./assets/img/denlogo.png" alt="">
+                    <h2>DG<span class="danger">Store</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <!-- Menu -->
+            <div class="sidebar">
+                <a href="./home.html">
+                    <span class="material-icons-sharp">home</span>
+                    <h3>Trang ngoài</h3>
+                </a>
+                <a href="./user.html">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Người dùng</h3>
+                </a>
+                <a href="./employee.html" class="active">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Phân tích cho nhân viên</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>Hộp thư đến</h3>
+                    <span class="message-count">8</span>
+                </a>
+                <!--  -->
+                <a href="./payment.html">
+                    <span class="material-icons-sharp">request_quote</span>
+                    <h3>Phiếu chi</h3>
+                </a>
+                <a href="./order.html">
+                    <span class="material-icons-sharp">content_paste</span>
+                    <h3>Phiếu đặt hàng</h3>
+                    <span class="message-count">66</span>
+                </a>
+                <a href="./delivery.html">
+                    <span class="material-icons-sharp">content_paste_go</span>
+                    <h3>Phiếu giao</h3>
+                </a>
+                <a href="./exchange.html">
+                    <span class="material-icons-sharp">switch_account</span>
+                    <h3>Phiếu đổi</h3>
+                </a>
+                <a href="./payback.html">
+                    <span class="material-icons-sharp">credit_card</span>
+                    <h3>Phiếu trả</h3>
+                </a>
+                <a href="./bill.html">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Hóa đơn</h3>
+                    <span class="message-count">6</span>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Cài đặt</h3>
+                </a>
+                <a href="./signin.html">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Đăng nhập mới</h3>
+                </a>
+                <a href="./home.html">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Đăng xuất</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of sidebar section 16.53-->
+
+        <!-- Main Content -->
+        <main>
+            <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Hóa đơn</h1>
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Danh sách hóa đơn</h2>
+                <a href="./createBill.html"
+                    style="float: inline-start; font-size: 16px;color: #fff; background-color: green; padding: 10px; border-radius: 6px;">Thêm mới hóa đơn</a>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 16px;">Mã hóa đơn</th>
+                            <th style="font-size: 16px;">Mã nhân viên</th>
+                            <th style="font-size: 16px;">Mã khách hàng</th>
+                            <th style="font-size: 16px;">Mã phiếu đổi</th>
+                            <th style="font-size: 16px;">Thành tiền</th>
+                            <th style="font-size: 16px;">Ngày mua hàng</th>
+                            <th style="font-size: 16px;">Hoạt động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 14px;">13</td>
+                            <td style="font-size: 14px;">24</td>
+                            <td style="font-size: 14px;">12</td>
+                            <td style="font-size: 14px;">19</td>
+                            <td style="font-size: 14px;">3.120.000</td>
+                            <td style="font-size: 14px;">12-10-2023</td>
+                            <td style="font-size: 14px;">
+                                <a href="./editBill.html">
+                                    <i class="fa-solid fa-eye" style="font-size: 26px; color: gray;"></i>
+                                    <i class="fa-solid fa-pen-to-square" style="font-size: 26px; color: blue;"></i>
+                                    <i class="fa-solid fa-trash" style="font-size: 26px; color: red;"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 14px;">13</td>
+                            <td style="font-size: 14px;">24</td>
+                            <td style="font-size: 14px;">12</td>
+                            <td style="font-size: 14px;">19</td>
+                            <td style="font-size: 14px;">3.120.000</td>
+                            <td style="font-size: 14px;">12-10-2023</td>
+                            <td style="font-size: 14px;">
+                                <a href="./editBill.html">
+                                    <i class="fa-solid fa-eye" style="font-size: 26px; color: gray;"></i>
+                                    <i class="fa-solid fa-pen-to-square" style="font-size: 26px; color: blue;"></i>
+                                    <i class="fa-solid fa-trash" style="font-size: 26px; color: red;"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 14px;">13</td>
+                            <td style="font-size: 14px;">24</td>
+                            <td style="font-size: 14px;">12</td>
+                            <td style="font-size: 14px;">19</td>
+                            <td style="font-size: 14px;">3.120.000</td>
+                            <td style="font-size: 14px;">12-10-2023</td>
+                            <td style="font-size: 14px;">
+                                <a href="./editBill.html">
+                                    <i class="fa-solid fa-eye" style="font-size: 26px; color: gray;"></i>
+                                    <i class="fa-solid fa-pen-to-square" style="font-size: 26px; color: blue;"></i>
+                                    <i class="fa-solid fa-trash" style="font-size: 26px; color: red;"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 14px;">13</td>
+                            <td style="font-size: 14px;">24</td>
+                            <td style="font-size: 14px;">12</td>
+                            <td style="font-size: 14px;">19</td>
+                            <td style="font-size: 14px;">3.120.000</td>
+                            <td style="font-size: 14px;">12-10-2023</td>
+                            <td style="font-size: 14px;">
+                                <a href="./editBill.html">
+                                    <i class="fa-solid fa-eye" style="font-size: 26px; color: gray;"></i>
+                                    <i class="fa-solid fa-pen-to-square" style="font-size: 26px; color: blue;"></i>
+                                    <i class="fa-solid fa-trash" style="font-size: 26px; color: red;"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 14px;">13</td>
+                            <td style="font-size: 14px;">24</td>
+                            <td style="font-size: 14px;">12</td>
+                            <td style="font-size: 14px;">19</td>
+                            <td style="font-size: 14px;">3.120.000</td>
+                            <td style="font-size: 14px;">12-10-2023</td>
+                            <td style="font-size: 14px;">
+                                <a href="./editBill.html">
+                                    <i class="fa-solid fa-eye" style="font-size: 26px; color: gray;"></i>
+                                    <i class="fa-solid fa-pen-to-square" style="font-size: 26px; color: blue;"></i>
+                                    <i class="fa-solid fa-trash" style="font-size: 26px; color: red;"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#" style="font-size: 18px;">Xem tất cả</a>
+            </div>
+            <!-- End of Recent Order -->
+        </main>
+        <!-- End Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <!-- nav -->
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Giang</b></p>
+                        <smal class="text-muted">Admin</smal>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/assets/img/user.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- End of nav -->
+
+            <!-- user profile -->
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="./assets/img/denlogo.png" alt="">
+                    <h2>Thiết bị điện tử</h2>
+                    <p>Kết nối với mọi nguời</p>
+                </div>
+            </div>
+
+            <!-- reminders -->
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">notifications_none</span>
+                </div>
+                <!-- 1 -->
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">volume_up</span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">08:00 AM - 12:00 PM</small>
+                        </div>
+                        <span class="material-icons-sharp">more_vert</span>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">edit</span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">08:00 AM - 12:00 PM</small>
+                        </div>
+                        <span class="material-icons-sharp">more_vert</span>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <a href="">Add Reminder</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/icon/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

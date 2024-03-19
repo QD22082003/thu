@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sửa phiếu đặt</title>
+    <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/icon/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+        <div class="container-fluid">
+            <img src="./assets/img/tranglogo-removebg-preview.png" style="width: 100px; height: 100px;" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="./employee.html"><i class="fa-solid fa-house-lock text-warning mx-1"></i>Trang Quản lý</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href=""><i class="fa-solid fa-house text-info mx-1"></i>Trang ngoài</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Sửa phiếu đặt</h3>
+            </div>
+            <div class="col-md-6">
+                <a href="./order.html" class="btn btn-primary float-end">Danh sách phiếu đặt</a>
+                <a href="./order.html" class="btn btn-secondary float-end mx-2">Quay lại</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <form action="" method="POST">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group mt-4">
+                        <label class="input-group-text" for="">Mã phiếu đặt</label>
+                        <input type="text" name="nameCategory" class="form-control bg-warning" placeholder="1">
+                    </div>
+                    <div class="form-group mt-4">
+                        <label class="input-group-text" for="">Mã nhân viên</label>
+                        <input type="text" name="nameCategory" class="form-control" placeholder="3">
+                    </div>
+                    <div class="form-group mt-4">
+                        <label class="input-group-text" for="">Mã khách hàng</label>
+                        <input type="text" name="nameCategory" class="form-control" placeholder="12">
+                    </div>
+                    <div class="form-group mt-4">
+                        <span class="input-group-text" id="addon-wrapping">Ngày đặt hàng</span>
+                        <input type="text" class="form-control me-5" aria-label="dateW" aria-describedby="addon-wrapping" name="dateW" placeholder="12-12-2023">
+                    </div>
+                </div>
+            </div>
+            <a href="./order.html" type="submit" class="btn btn-success mt-4">Lưu</a>
+        </form>
+    </div>
+</div>
+
+
+    <script src="./assets/icon/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
